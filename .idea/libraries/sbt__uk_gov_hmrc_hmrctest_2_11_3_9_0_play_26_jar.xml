@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: uk.gov.hmrc:hmrctest_2.11:3.9.0-play-26:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/uk.gov.hmrc/hmrctest_2.11/jars/hmrctest_2.11-3.9.0-play-26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/uk.gov.hmrc/hmrctest_2.11/srcs/hmrctest_2.11-3.9.0-play-26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
