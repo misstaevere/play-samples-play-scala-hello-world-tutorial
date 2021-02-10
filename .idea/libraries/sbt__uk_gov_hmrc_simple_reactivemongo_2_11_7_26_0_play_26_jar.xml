@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: uk.gov.hmrc:simple-reactivemongo_2.11:7.26.0-play-26:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/uk.gov.hmrc/simple-reactivemongo_2.11/jars/simple-reactivemongo_2.11-7.26.0-play-26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/uk.gov.hmrc/simple-reactivemongo_2.11/srcs/simple-reactivemongo_2.11-7.26.0-play-26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
