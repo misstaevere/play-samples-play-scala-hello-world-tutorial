@@ -3,6 +3,8 @@ package controllers
 import org.scalatestplus.play.guice.GuiceOneAppPerSuite
 import play.api.mvc.ControllerComponents
 import uk.gov.hmrc.play.test.UnitSpec
+import play.api.test.FakeRequest
+import play.api.http.Status
 
 class ApplicationControllerSpec extends UnitSpec with GuiceOneAppPerSuite {
 
@@ -14,6 +16,11 @@ class ApplicationControllerSpec extends UnitSpec with GuiceOneAppPerSuite {
 
   "ApplicationController .index()" should {
 
+    val result = TestApplicationController.index()(FakeRequest())
+
+    "return OK" in {
+      status(result) shouldBe Status.OK
+    }
   }
 
   "ApplicationController .create(id: String)" should {
